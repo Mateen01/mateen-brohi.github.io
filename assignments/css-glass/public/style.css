@@ -1,0 +1,244 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    min-height: 100vh;
+    /* flex-direction: column; */
+ /*   
+}
+.body{
+    margin: 50px;
+    display: flex;
+    min-height: 80vh;
+    min-width: 90vw;
+    border-radius: 40px;
+    
+}
+.body1{
+    background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3)
+            );
+    height: 70vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.body1Div1{
+   
+    text-align: center;
+    margin-left: 20%;
+    
+}
+.body1Div2{
+    
+    text-align: center;
+}
+.body1Div2 ul {
+    list-style-type: none;
+}
+.body1Div2 ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.body2{
+     background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3));
+    height: 30vh;
+    width: 100%;
+}
+.body2Div1{
+   
+    width: 100%;
+    text-align: center;
+}
+.body2Div1 input{
+    border: solid;
+    border-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.body2Div1 input:focus{
+    border: none;
+    border-radius: none;
+}
+.body2Div2{
+   
+    height: 52vh;
+    text-align: center;
+} */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2,p{
+    color:#658ec6;
+    font-weight: 600;
+    opacity: 0.6;
+}
+main{
+
+    min-height: 100vh;
+    
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.glass{
+    background: white;
+    height: 150vh;
+    width: 90%;
+    background: linear-gradient(to right bottom ,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    z-index: 2;
+    display: flex;  
+    margin: 5rem;
+  
+}
+
+.circle1,.circle2{
+    background: white;
+    height: 15rem;
+    width: 15rem;
+    background: linear-gradient(to right bottom ,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+.circle1{
+  top: 2%;
+  right:1%
+  
+}
+.circle2{
+  bottom: 1%;
+  left:1%
+  
+}
+.user,.links{
+    align-items: center;
+}
+.dashboard{
+    flex:1;
+    width: 30%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom ,rgba(255,255,255,0.8),rgba(255,255,255,0.3));
+    
+}
+.games{
+    flex:2;
+}
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    align-items: center;
+}
+.link h2{
+    padding: 0rem 2rem;
+}
+.pro{
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+}
+.pro img{
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+.pro h2{
+    width: 40%;
+    color: white;
+    font-weight: 600;
+    opacity: 1;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+}
+
+/* Games */
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5rem ;
+}
+.status{
+    margin-bottom: 3rem;
+}
+.status input{
+    background: linear-gradient(to right bottom ,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background: linear-gradient(to left top ,rgba(255,255,255,1),rgba(255, 255, 255, 0.849));
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.575);
+}
+
+.progress{
+     background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+     width: 100%;
+     height: 25%;
+     border-radius: 1rem;
+     position: relative;
+     overflow: hidden;
+}
+.progress::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(236,236,236);
+    position: absolute;
+    left: 60%;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .percentage{ 
+    font-weight: bold;
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 

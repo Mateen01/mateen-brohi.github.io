@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+<body>
+    
+    <center><form action="#" method="POST">
+        <table  border="2" width="1000px" bgcolor="yellow" cellspacing="0">
+            <th >ACCOUNTS</th>
+            <th bgcolor="lightgreen">PERSONAL DETAILS</th>
+            <th>YOUR REVIEW</th>
+        </table>
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+            <label for="fname">First name:</label>
+            <input type="text" maxlength="20" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" maxlength= "20" name="lname"><br>
+            <!-- <label for="CNIC">CNIC:</label>
+            <input type="tel" placeholder="cnic" maxlength="15" pattern="[0-9]{}" required><br><br> -->
+            <p>
+                <label>CNIC:
+                 <input type="tel" pattern="[0-9]{5}" placeholder="#####" size="1" maxlength="5">-
+                  <input type="tel" pattern="[0-9]{7}" placeholder="#######" size="4" maxlength="7"> -
+                  <input type="tel" pattern="[0-9]{1}" placeholder="#" size="1"maxlength="1" >
+                </label>
+               </p>
+            <label for="Sociallink">Sociallink:</label>
+            <input type="text" placeholder="enter facebook/linkedin profile link" size="50"><br><br>
+            <a href="./accounts.html"><img src="./images/back.png" alt="back" width="100px" height="40px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./yourreview.html"><img src="./images/next.png" alt="next" width="100px" height="40px"> </a>
+        </fieldset>
+       
+    </form>
+</center>
+</body>
+</html>

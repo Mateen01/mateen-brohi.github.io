@@ -1,0 +1,132 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    height: 150vh;
+    margin: 0px 100px 0px 100px;
+    background-color: black;
+    color: white;
+    min-width: 880px;
+}
+.body1{
+    margin-left: 70px;
+    padding-top: 10px;  
+}
+.body1 > h3{
+    color: rgb(35, 158, 35)
+}
+.body1 > p{
+    font: 16px;
+    color: white;
+    
+}
+.body2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(35, 158, 35);
+    height: 5%;
+    margin-bottom: 20px;
+
+}
+.body2div1 >a{
+    text-decoration: underline;
+    color: white;
+    display: inline-block;
+    margin-top: 12px;
+}
+.body3{
+    background-color: #fff;
+    border: solid black;
+    border-top: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+}
+.title{
+    color:rgb(35, 158, 35);
+}
+.body3 >div{
+    width: 30%;
+    margin-left: 70px
+}
+/* .body3 .title::after {
+    content: "";
+    background-color: rgb(35, 158, 35);;
+    width: 20%;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    
+} */
+@media only screen and (min-width:400px){
+    *{
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    height: 150vh;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    min-width: 880px;
+}
+.body1{
+    margin-left: 70px;
+    padding-top: 10px;  
+}
+.body1 > h3{
+    color: rgb(35, 158, 35)
+}
+.body1 > p{
+    font: 16px;
+    color: white;
+    
+}
+.body2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(35, 158, 35);
+    height: 5%;
+    margin-bottom: 20px;
+
+}
+.body2div1 >a{
+    text-decoration: underline;
+    color: white;
+    display: inline-block;
+    margin-top: 12px;
+}
+.body3{
+    background-color: #fff;
+    border: solid black;
+    border-top: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+}
+.title{
+    color:rgb(35, 158, 35);
+}
+.body3 >div{
+    width: 30%;
+    margin-left: 70px
+}
+}
